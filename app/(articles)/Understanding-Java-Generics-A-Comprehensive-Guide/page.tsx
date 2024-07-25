@@ -13,12 +13,6 @@ import comment from './images/comment-svgrepo-com.svg'
 import link from './images/link-minimalistic-svgrepo-com.svg'
 import play from './images/play-circle-svgrepo-com.svg'
 import bookmark from './images/bookmark-svgrepo-com.svg'
-import type { Metadata } from 'next'
- 
-export const metadata: Metadata = {
-  title: 'Understanding Java Generics: A Comprehensive Guide',
-  description: 'Java Generics, introduced in JDK 5, revolutionized the way we handle collections and types in Java programming. They provide a way to parameterize types, allowing for more flexible, reusable, and type-safe code. This comprehensive guide will delve into the intricacies of Java Generics, exploring their syntax, benefits, limitations, and best practices.',
-}
 
 interface CodeBlockProps {language: string;code: string;}
 const CodeBlock: React.FC<CodeBlockProps> = ({ language, code }) => {
