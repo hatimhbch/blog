@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400..900;1,300..900;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,200&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
+.hp-collection{
+    display: block;
+    width: 90%;
+    padding: 0 5%;
+}
+.hp-collection .hp-listofcollection{
+    display: flex;
+    width: 660px;
+    background:#fff;
+    padding: 30px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+.hp-collection .hp-listofcollection .hp-leftofarticle{
+    display: block;
+}
+.hp-collection .hp-listofcollection .hp-leftofarticle .hp-profile{
+    display: flex;
+    align-items: center;
+}
+.hp-collection .hp-listofcollection .hp-leftofarticle .hp-profile img{
+    width: 25px;
+    height: 25px;
+    padding: 0.8px;
+    border: 1px solid #eee;
+    border-radius: 50px;
+}
+.hp-collection .hp-listofcollection .hp-leftofarticle .hp-profile p{
+    color: #000;
+    font-size: 12px;
+    font-size: 'Inter', sans-serif;
+    margin-left: 10px;
+    
+}
+.hp-collection .hp-listofcollection .hp-leftofarticle h1{
+    color: #202022;
+    font-size: 24px;
+    margin-top: 12px;
+}
+.hp-leftofarticle .hp-desc{
+    color: #777;
+    font-size: 15px;
+    width: 90%;
+    font-family: 'Work sans', sans-serif;
+    margin-top: 9px;
+}
+.hp-collection .hp-listofcollection .hp-leftofarticle .hp-dateandreadtime{
+    font-size: 12px;
+    color: #777;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.hp-collection .hp-listofcollection .hp-cover{
+    width: 235px;
+    height: 110px;
+    margin-top: 15px;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjTm6O0dRfD-kCyt5ouwZbrQBt5_zF5PSw5T3C9b_nP_c8Z_hPmMo670blHpaGcpTukV8hyNfW84Ddx2jOK8rGNQ72z1o0TT7LIc1Z6XMy2RHyrFdRHdYKoAMSr565-unKPnARuEWTVAI/s640/Java+Generics+Tutorial.png);
+    background-position: center;
+    background-size: cover;
+}
+.hp-collection .hp-listofcollection:nth-child(2) .hp-cover{
+    width: 235px;
+    height: 110px;
+    margin-top: 15px;
+    background: url(https://cdn.educba.com/academy/wp-content/uploads/2019/01/Java-Collection.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hp-collection .hp-listofcollection:nth-child(3) .hp-cover{
+    width: 235px;
+    height: 110px;
+    margin-top: 15px;
+    background: url(https://logicmojo.com/assets/dist/new_pages/images/polymorphismInJava.jpg);
+    background-position: center;
+    background-size: cover;
+}
