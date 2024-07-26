@@ -3,6 +3,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import profile from './profile.jpeg'
 import './collection.css'
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Blog for share Articles of experts in all language programming and science Understanding Java Generics: A Comprehensive Guide',
+  description: 'Java Generics, introduced in JDK 5, revolutionized...',
+}
 
 function collection() {
   return (
