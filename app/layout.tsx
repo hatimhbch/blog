@@ -3,14 +3,19 @@ import Navbar from "./components/headtail/Navbar/navbar";
 import Footer from "./components/headtail/Footer/footer";
 import "./globals.css";
 import Script from "next/script";
+import { ReactNode } from "react"; // استيراد ReactNode
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function RootLayout({ children }) {
+interface RootLayoutProps {
+  children: ReactNode; // تحديد نوعية children
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <head>
-        {/* هنا يتم إضافة Google Analytics */}
+        {/* إضافة Google Analytics */}
         <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=G-JYVGDQZH4V`}
