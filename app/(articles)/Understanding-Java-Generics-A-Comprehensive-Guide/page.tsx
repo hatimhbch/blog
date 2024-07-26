@@ -1,18 +1,17 @@
-"use client"
-import React from 'react'
-import { useEffect } from 'react'
-import Image from 'next/image'
-import hljs from 'highlight.js'
-import 'highlight.js/styles/github.css'
+"use client";
+import React, { useEffect } from 'react';
+import Image from 'next/image';
+import hljs from 'highlight.js';
+import '@/app/(articles)/github.css';
+import '@/app/(articles)/page.css'
 
-import './page.css'
-
-import profile from './images/profile.jpeg'
-import heart from './images/heart-svgrepo-com.svg'
-import comment from './images/comment-svgrepo-com.svg'
-import link from './images/link-minimalistic-svgrepo-com.svg'
-import play from './images/play-circle-svgrepo-com.svg'
-import bookmark from './images/bookmark-svgrepo-com.svg'
+import profile from '@/app/(articles)/images/profile.svg';
+import heart from '@/app/(articles)/images/heart-svgrepo-com.svg';
+import comment from '@/app/(articles)/images/comment-svgrepo-com.svg';
+import link from '@/app/(articles)/images/link-minimalistic-svgrepo-com.svg';
+import play from '@/app/(articles)/images/play-circle-svgrepo-com.svg';
+import bookmark from '@/app/(articles)/images/bookmark-svgrepo-com.svg';
+import Head from 'next/head';
 
 interface CodeBlockProps {language: string;code: string;}
 const CodeBlock: React.FC<CodeBlockProps> = ({ language, code }) => {
@@ -46,6 +45,15 @@ public class GenericBox<T> {
   `;
   return (
   <>
+      <Head>
+        <title>Understanding Java Generics</title>
+        <meta name="description" content="A comprehensive guide to understanding Java Generics." />
+        <meta property="og:title" content="Understanding Java Generics: A Comprehensive Guide" />
+        <meta property="og:description" content="Explore the intricacies of Java Generics, including syntax, benefits, limitations, and best practices." />
+        <meta property="og:image" content="/images/profile.jpeg" />
+        <meta property="og:url" content="http://localhost:3000/Understanding-Java-Generics-A-Comprehensive-Guide" />
+      </Head>
+
     <div className="listoficonsreact">
         <div className="artinfo-user-art">
             <Image src={profile} alt='' />
@@ -91,7 +99,7 @@ String s = (String) list.get(0);
 
 <h2>The Syntax of Generics</h2>
 
-<p>Generics syntax is involves specifying type parameters within angle brackets (<code>&lt;&gt;</code>). These parameters can be used in class, method, and interface definitions.</p>
+<p>Generics syntax involves specifying type parameters within angle brackets (<code>&lt;&gt;</code>). These parameters can be used in class, method, and interface definitions.</p>
 
 <h3>Generic Class:</h3>
 
