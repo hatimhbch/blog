@@ -1,19 +1,20 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import profile from './profile.jpeg'
+import profile from '@/app/(articles)/images/profile.svg'
 import './collection.css'
 import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
-  title: 'Blog for share Articles of experts in all language programming and science Understanding Java Generics: A Comprehensive Guide',
-  description: 'Java Generics, introduced in JDK 5, revolutionized...',
+  title: 'Articles of experts in all language programming and science Understanding Java Generics: A Comprehensive Guide',
+  description: 'Java, Python, Html, Css, Javascript, Typescript, Nodejs, Reactjs, Vuejs, Angular, Next.js, Nestjs, Expressjs, Spring, Spring bot, c#, c, c++, .Net, Django',
 }
+ 
 
 function collection() {
   return (
     <div className='hp-collection' >
-        <Link href='#' className="hp-listofcollection">
+        <Link href='./Understanding-Java-Generics-A-Comprehensive-Guide' className="hp-listofcollection">
             <div className="hp-leftofarticle">
                 <div className="hp-profile"><Image src={profile} alt='' /><p>Hatim Habchaoui</p></div>
                 <h1>Understanding Java Generics: A Comprehensive Guide</h1>
@@ -22,7 +23,7 @@ function collection() {
             </div>
             <h6 className='hp-cover'></h6>
         </Link>
-        <Link href='#' className="hp-listofcollection">
+        <Link href='./Collections-in-Java' className="hp-listofcollection">
             <div className="hp-leftofarticle">
                 <div className="hp-profile"><Image src={profile} alt='' /><p>Hatim Habchaoui</p></div>
                 <h1>Understanding Java Generics: A Comprehensive Guide</h1>

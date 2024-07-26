@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400..900;1,300..900;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 .navbar{
     display: flex;
     width: 100%;
@@ -39,12 +40,12 @@ font-family: 'Rubik', sans-serif;
 }
 .navbar .search{
     display: flex;
-    background: #f9f9f9;
+    background: #fafafa;
     width: auto;
     height: 39px;
     margin:15px 0 10px 385px;
     padding: 0 8px 0 0;
-    border: 1px solid #f2f2f2;
+    border: 1px solid #f4f4f4;
     border-radius: 40px;
     z-index: 1;
 }
@@ -72,11 +73,11 @@ font-family: 'Rubik', sans-serif;
     background: none;
 }
 .navbar .search .inputSearch::placeholder{
-    color: #888;
-    font-family: 'Cairo', sans-serif;
+    color: #aaa;
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .navbar .search p{
     color: #222;

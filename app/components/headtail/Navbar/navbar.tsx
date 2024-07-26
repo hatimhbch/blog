@@ -3,11 +3,12 @@ import Image from 'next/image'
 import './navbar.css'
 import logo from './images/logo.svg'
 import search from './images/search.svg'
+import Link from 'next/link'
 
 function navbar() {
   return (
     <div className="navbar">
-            <Image className="logo" src={logo} alt='' />
+            <Link href='./'><Image className="logo" src={logo} alt='' /></Link>
             <ul>
               <li><a href="#">Services</a></li>
               <li><a href="#">Spaces</a></li>
@@ -15,7 +16,7 @@ function navbar() {
             </ul>
             <div className="search">
                 <button className="imgSearch"><Image src={search} alt=''/></button>
-                <input id="search" className="inputSearch" type="text" placeholder="Search what want you learn?"/>
+                <input id="search" className="inputSearch" type="text" placeholder="Search"/>
                 <p>Ctrl+K</p>
             </div>
             <div className="iconsbar">
