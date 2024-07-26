@@ -91,7 +91,7 @@ String s = (String) list.get(0);
 
 <h2>The Syntax of Generics</h2>
 
-<p>Generics syntax involves specifying type parameters within angle brackets (<code>&lt;&gt;</code>). These parameters can be used in class, method, and interface definitions.</p>
+<p>Generics syntax is involves specifying type parameters within angle brackets (<code>&lt;&gt;</code>). These parameters can be used in class, method, and interface definitions.</p>
 
 <h3>Generic Class:</h3>
 
