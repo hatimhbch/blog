@@ -4,11 +4,24 @@ import Footer from "./components/headtail/Footer/footer";
 import "./globals.css";
 import Script from "next/script";
 import { ReactNode } from "react"; // استيراد ReactNode
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
 interface RootLayoutProps {
   children: ReactNode; // تحديد نوعية children
+}
+
+export const meta:Metadata = {
+  metadataBase: new URL("https://elevenai.co"),
+  keywords: ["elevenai","coding","programming","ai"],
+  title:{
+    default: "Elevenai",
+    template: "%s | Elevenai"
+  },
+  openGraph: {
+    description: "learn code, programming and science"
+  }
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
