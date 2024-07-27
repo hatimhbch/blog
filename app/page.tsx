@@ -1,3 +1,4 @@
+import Metadata from "./(articles)/Metadata";
 import Collection from "./components/collection/collection";
 
 export default function Home() {
