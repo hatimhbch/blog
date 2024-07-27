@@ -8,7 +8,7 @@ import Link from 'next/link'
 function navbar() {
   return (
     <div className="navbar">
-            <Link href='./'><Image className="logo" src={logo} alt='' /></Link>
+            <Link href='./' aria-label="elevenai"><Image className="logo" src={logo} alt='home elevenai' /></Link>
             <ul>
               <li><a href="#">Services</a></li>
               <li><a href="#">Spaces</a></li>
