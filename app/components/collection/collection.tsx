@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 
 function collection() {
   return (
+   <>
     <div className='hp-collection' >
         <Link href='./Understanding-Java-Generics-A-Comprehensive-Guide' className="hp-listofcollection">
             <div className="hp-leftofarticle">
@@ -55,11 +56,21 @@ function collection() {
                 <div className="hp-profile"><Image src={profile} alt='' /><p>Hatim Habchaoui</p></div>
                 <h1>How to create Java ArrayList from scratch</h1>
                 <p className='hp-desc'>Java Generics, introduced in JDK 5, revolutionized...</p>
-                <p className="hp-dateandreadtime">Juil 27</p>
+                <p className="hp-dateandreadtime">Juil 28</p>
+            </div>
+            <h6 className='hp-cover'></h6>
+        </Link>
+        <Link href='./What-is-the-best-way-to-learn-programming' className="hp-listofcollection">
+            <div className="hp-leftofarticle">
+                <div className="hp-profile"><Image src={profile} alt='' /><p>Hatim Habchaoui</p></div>
+                <h1>How to create Java ArrayList from scratch</h1>
+                <p className='hp-desc'>Java Generics, introduced in JDK 5, revolutionized...</p>
+                <p className="hp-dateandreadtime">Juil 28</p>
             </div>
             <h6 className='hp-cover'></h6>
         </Link>
     </div>
+   </>
   )
 }
 

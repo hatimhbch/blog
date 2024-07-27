@@ -139,3 +139,17 @@ strong{
     font-family: 'Poppins', sans-serif;
     border-bottom: 1px dashed #999;
 }
+.disflexcollection{
+    width: 955px;
+    margin: 0 auto;
+}
+.disflexcollection .hp-collection{
+    width: 100%;
+}
+.hp-collection .hp-listofcollection{
+    width: 800px;
+}
+.disflexcollection .hp-collection .hp-listofcollection .hp-leftofarticle{
+    display: block;
+    width: 500px;
+}

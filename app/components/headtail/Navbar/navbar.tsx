@@ -10,9 +10,9 @@ function navbar() {
     <div className="navbar">
             <Link href='./' aria-label="elevenai"><Image className="logo" src={logo} alt='home elevenai' /></Link>
             <ul>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Spaces</a></li>
-              <li><a href="#">Languages</a></li>
+              <li><Link href="./">Articles</Link></li>
+              <li><Link href="./help">Help</Link></li>
+              <li><Link href="./about">About</Link></li>
             </ul>
             <div className="search">
                 <Image src={search} className="imgSearch" alt=''/>

@@ -13,6 +13,7 @@ import play from '@/app/(articles)/images/play-circle-svgrepo-com.svg';
 import bookmark from '@/app/(articles)/images/bookmark-svgrepo-com.svg';
 import Head from 'next/head';
 import Metadata from '../Metadata';
+import Collection from '@/app/components/collection/collection';
 
 interface CodeBlockProps {
   language: string;
@@ -172,6 +173,7 @@ while (iterator.hasNext()) {
         <h2>Conclusion</h2>
         <p>Understanding collections in Java is crucial for efficient data manipulation and storage. By mastering the Java Collections Framework, you can write more efficient, type-safe, and maintainable code.</p>
       </div>
+      <div className="disflexcollection"><Collection /></div>
     </>
   );
 };

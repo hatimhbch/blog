@@ -5,6 +5,7 @@
     padding: 8px 0;
     background: #f5f4f1;
     justify-content: center;
+    align-items: center;
     border-top: 1px solid #eee;
 }
 .lastpartofhp li{

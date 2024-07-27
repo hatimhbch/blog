@@ -12,6 +12,7 @@
     display: block;
     width: 90%;
     padding: 0 5%;
+    margin: 50px 0 0 50px;
 }
 .hp-collection .hp-listofcollection{
     display: flex;
@@ -65,9 +66,9 @@
 
 
 .hp-collection .hp-listofcollection .hp-cover{
-    width: 200px;
-    height: 110px;
-    margin-top: 15px;
+    width: 170px;
+    height: 100px;
+    margin-top: 25px;
     background: url(https://cdn.prod.website-files.com/63fe5b1c322d2f50310b436a/65ba7f23548194ea94bf4ea1_The%20Ultimate%20Guide%20to%20TypeScript.webp);
     background-position: center;
     background-size: cover;
@@ -87,5 +88,9 @@
 }
 .hp-collection .hp-listofcollection:nth-child(5) .hp-cover{
     background: url(https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/05/java-array-vs-arraylist.webp);
+    background-size: cover;
+}
+.hp-collection .hp-listofcollection:nth-child(6) .hp-cover{
+    background: url(https://appetiser.com.au/wp-content/uploads/2019/04/Most-Loved-And-Hated-Programming-Languages.png.webp);
     background-size: cover;
 }

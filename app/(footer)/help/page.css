@@ -1,0 +1,12 @@
+.he-help{
+    margin: 250px 0 280px 0;
+    text-align: center;
+    font-size: 20px;
+    color: #555;
+    font-family: monospace;
+}
+.he-help a{
+    margin:50px 0 30px 0;
+    color: rgb(0, 162, 255);
+    text-decoration: underline;
+}
