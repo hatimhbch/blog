@@ -15,7 +15,7 @@ function navbar() {
               <li><a href="#">Languages</a></li>
             </ul>
             <div className="search">
-                <button className="imgSearch"><Image src={search} alt=''/></button>
+                <Image src={search} className="imgSearch" alt=''/>
                 <input id="search" className="inputSearch" type="text" placeholder="Search"/>
                 <p>Ctrl+K</p>
             </div>

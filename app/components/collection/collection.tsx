@@ -19,7 +19,7 @@ function collection() {
                 <div className="hp-profile"><Image src={profile} alt='' /><p>Hatim Habchaoui</p></div>
                 <h1>Understanding Java Generics: A Comprehensive Guide</h1>
                 <p className='hp-desc'>Java Generics, introduced in JDK 5, revolutionized...</p>
-                <p className="hp-dateandreadtime">Feb 15</p>
+                <p className="hp-dateandreadtime">Juil 27</p>
             </div>
             <h6 className='hp-cover'></h6>
         </Link>
@@ -28,7 +28,7 @@ function collection() {
                 <div className="hp-profile"><Image src={profile} alt='' /><p>Hatim Habchaoui</p></div>
                 <h1>Collections in Java</h1>
                 <p className='hp-desc'>Java Generics, introduced in JDK 5, revolutionized...</p>
-                <p className="hp-dateandreadtime">Feb 15</p>
+                <p className="hp-dateandreadtime">Juil 27</p>
             </div>
             <h6 className='hp-cover'></h6>
         </Link>
@@ -37,7 +37,7 @@ function collection() {
                 <div className="hp-profile"><Image src={profile} alt='' /><p>Hatim Habchaoui</p></div>
                 <h1>Java Polymorphism</h1>
                 <p className='hp-desc'>Java Generics, introduced in JDK 5, revolutionized...</p>
-                <p className="hp-dateandreadtime">Feb 15</p>
+                <p className="hp-dateandreadtime">Juil 27</p>
             </div>
             <h6 className='hp-cover'></h6>
         </Link>
@@ -46,7 +46,7 @@ function collection() {
                 <div className="hp-profile"><Image src={profile} alt='' /><p>Hatim Habchaoui</p></div>
                 <h1>Java Inheritance Tutorial: explained with examples</h1>
                 <p className='hp-desc'>Java Generics, introduced in JDK 5, revolutionized...</p>
-                <p className="hp-dateandreadtime">Feb 15</p>
+                <p className="hp-dateandreadtime">Juil 27</p>
             </div>
             <h6 className='hp-cover'></h6>
         </Link>
@@ -55,7 +55,7 @@ function collection() {
                 <div className="hp-profile"><Image src={profile} alt='' /><p>Hatim Habchaoui</p></div>
                 <h1>How to create Java ArrayList from scratch</h1>
                 <p className='hp-desc'>Java Generics, introduced in JDK 5, revolutionized...</p>
-                <p className="hp-dateandreadtime">Feb 15</p>
+                <p className="hp-dateandreadtime">Juil 27</p>
             </div>
             <h6 className='hp-cover'></h6>
         </Link>

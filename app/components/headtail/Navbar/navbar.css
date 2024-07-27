@@ -19,7 +19,7 @@ font-family: 'Rubik', sans-serif;
 }
 .navbar .logo{
     width: auto;
-    height: 38px;
+    height: 37px;
     margin-left: 20px;
 }
 .navbar ul{
@@ -43,7 +43,8 @@ font-family: 'Rubik', sans-serif;
     background: #fafafa;
     width: auto;
     height: 39px;
-    margin:15px 0 10px 385px;
+    align-items: center;
+    margin:15px 0 10px 395px;
     padding: 0 8px 0 0;
     border: 1px solid #f4f4f4;
     border-radius: 40px;
@@ -51,25 +52,17 @@ font-family: 'Rubik', sans-serif;
 }
 .navbar .search .imgSearch{
     display: flex;
-    width: 45px;
-    height: 100%;
-    margin:0 -12px 0 0;
+    width: 35px;
+    height: 40px;
     background: none;
     border: none;
     outline: none;
-    border-radius: 0 5px 5px 0;
-}
-.navbar .search .imgSearch img{
-    width: 40px;
-    height: 40px;
-    background: none;
     margin:4px 0 0 6px;
     border-radius: 50px;
 }
 .navbar .search .inputSearch{
-    padding: 0 15px 0 5px;
-    width: 200px;
-    border-radius: 50px;
+    padding: 0 5px 0 0;
+    width: 180px;
     background: none;
 }
 .navbar .search .inputSearch::placeholder{
