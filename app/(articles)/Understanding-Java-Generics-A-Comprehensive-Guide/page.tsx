@@ -12,6 +12,7 @@ import link from '@/app/(articles)/images/link-minimalistic-svgrepo-com.svg';
 import play from '@/app/(articles)/images/play-circle-svgrepo-com.svg';
 import bookmark from '@/app/(articles)/images/bookmark-svgrepo-com.svg';
 import Head from 'next/head';
+import Metadata from '../Metadata';
 
 interface CodeBlockProps {language: string;code: string;}
 const CodeBlock: React.FC<CodeBlockProps> = ({ language, code }) => {
@@ -45,14 +46,7 @@ public class GenericBox<T> {
   `;
   return (
   <>
-      <Head>
-        <title>Understanding Java Generics</title>
-        <meta name="description" content="A comprehensive guide to understanding Java Generics." />
-        <meta property="og:title" content="Understanding Java Generics: A Comprehensive Guide" />
-        <meta property="og:description" content="Explore the intricacies of Java Generics, including syntax, benefits, limitations, and best practices." />
-        <meta property="og:image" content="/images/profile.jpeg" />
-        <meta property="og:url" content="http://localhost:3000/Understanding-Java-Generics-A-Comprehensive-Guide" />
-      </Head>
+      <Metadata seoTitle={'Understanding Generics in Java: A Comprehensive Guide'} seoDescription={'Java Generics, introduced in JDK 5, revolutionized the way we handle collections and types in Java programming. They provide a way to parameterize types, allowing for more flexible, reusable, and type-safe code. This comprehensive guide will delve into the intricacies of Java Generics, exploring their syntax, benefits, limitations, and best practices.'} />
 
     <div className="listoficonsreact">
         <div className="artinfo-user-art">

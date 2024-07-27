@@ -16,12 +16,12 @@
 .hp-collection .hp-listofcollection{
     display: flex;
     width: 660px;
-    background:#fff;
     padding: 30px 0;
     border-bottom: 1px solid #f5f5f5;
 }
 .hp-collection .hp-listofcollection .hp-leftofarticle{
     display: block;
+    width: 460px;
 }
 .hp-collection .hp-listofcollection .hp-leftofarticle .hp-profile{
     display: flex;
@@ -63,26 +63,27 @@
 
 
 .hp-collection .hp-listofcollection .hp-cover{
-    width: 235px;
+    width: 200px;
     height: 110px;
     margin-top: 15px;
-    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjTm6O0dRfD-kCyt5ouwZbrQBt5_zF5PSw5T3C9b_nP_c8Z_hPmMo670blHpaGcpTukV8hyNfW84Ddx2jOK8rGNQ72z1o0TT7LIc1Z6XMy2RHyrFdRHdYKoAMSr565-unKPnARuEWTVAI/s640/Java+Generics+Tutorial.png);
+    background: url(https://cdn.prod.website-files.com/63fe5b1c322d2f50310b436a/65ba7f23548194ea94bf4ea1_The%20Ultimate%20Guide%20to%20TypeScript.webp);
     background-position: center;
     background-size: cover;
+    border: 1px solid #eee;
 }
 .hp-collection .hp-listofcollection:nth-child(2) .hp-cover{
-    width: 235px;
-    height: 110px;
-    margin-top: 15px;
-    background: url(https://cdn.educba.com/academy/wp-content/uploads/2019/01/Java-Collection.jpg);
-    background-position: center;
+    background: url(https://files.codingninjas.in/article_images/java-util-collections-reverseorder-method-in-java-0-1671213126.webp);
     background-size: cover;
 }
 .hp-collection .hp-listofcollection:nth-child(3) .hp-cover{
-    width: 235px;
-    height: 110px;
-    margin-top: 15px;
-    background: url(https://logicmojo.com/assets/dist/new_pages/images/polymorphismInJava.jpg);
-    background-position: center;
+    background: url(https://dotnettrickscloud.blob.core.windows.net/img/java/2820230207141426.webp);
+    background-size: cover;
+}
+.hp-collection .hp-listofcollection:nth-child(4) .hp-cover{
+    background: url(https://cache.careers360.mobi/media/article_images/2023/12/26/types-of-Inheritance-in-java.webp);
+    background-size: cover;
+}
+.hp-collection .hp-listofcollection:nth-child(5) .hp-cover{
+    background: url(https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/05/java-array-vs-arraylist.webp);
     background-size: cover;
 }

@@ -12,6 +12,7 @@ import link from '@/app/(articles)/images/link-minimalistic-svgrepo-com.svg';
 import play from '@/app/(articles)/images/play-circle-svgrepo-com.svg';
 import bookmark from '@/app/(articles)/images/bookmark-svgrepo-com.svg';
 import Head from 'next/head';
+import Metadata from '../Metadata';
 
 interface CodeBlockProps {
   language: string;
@@ -35,14 +36,8 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ language, code }) => {
 const CollectionInJava = () => {
   return (
     <>
-      <Head>
-        <title>Collections in Java</title>
-        <meta name="description" content="A detailed guide to understanding collections in Java, including examples and explanations." />
-        <meta property="og:title" content="Understanding Collections in Java: A Comprehensive Guide" />
-        <meta property="og:description" content="Explore the details of Java Collections, including various types of collections, their usage, and best practices." />
-        <meta property="og:image" content="/images/profile.jpeg" />
-        <meta property="og:url" content="http://localhost:3000/Understanding-Collections-in-Java" />
-      </Head>
+      <Metadata seoTitle={'Understanding Collections in Java: A Comprehensive Guide'} seoDescription={'Java Collections Framework provides a set of interfaces and classes for storing and manipulating groups of data as a single unit, a collection. Collections in Java are used to store, retrieve, manipulate, and communicate aggregate data. This comprehensive guide will delve into the various types of collections available in Java, their usage, examples, and best practices.'} />
+
 
       <div className="listoficonsreact">
         <div className="artinfo-user-art">
