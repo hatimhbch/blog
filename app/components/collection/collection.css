@@ -94,3 +94,7 @@
     background: url(https://appetiser.com.au/wp-content/uploads/2019/04/Most-Loved-And-Hated-Programming-Languages.png.webp);
     background-size: cover;
 }
+.hp-collection .hp-listofcollection:nth-child(7) .hp-cover{
+    background: url('https://cdn.prod.website-files.com/65cb11ea0b2e776c9df555a2/66a20262fb8612eb45bcfae6_Blog%20Header%20(36).webp');
+    background-size: cover;
+}

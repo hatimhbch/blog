@@ -69,9 +69,19 @@ function collection() {
             </div>
             <h6 className='hp-cover'></h6>
         </Link>
+        <Link href='./What-Is-Metas-Llama-3.1-405B-How-It-Works-Use-Cases-and-More' className="hp-listofcollection">
+            <div className="hp-leftofarticle">
+                <div className="hp-profile"><Image src={profile} alt='' /><p>Hatim Habchaoui</p></div>
+                <h1>What Is Meta's-Llama 3.1 405B How It Works Use Cases and More</h1>
+                <p className='hp-desc'>Java Generics, introduced in JDK 5, revolutionized...</p>
+                <p className="hp-dateandreadtime">Juil 28</p>
+            </div>
+            <h6 className='hp-cover'></h6>
+        </Link>
     </div>
    </>
   )
 }
+
 
 export default collection
