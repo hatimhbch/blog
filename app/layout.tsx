@@ -3,7 +3,6 @@ import Navbar from "./components/headtail/Navbar/navbar";
 import Footer from "./components/headtail/Footer/footer";
 import "./globals.css";
 import Script from "next/script";
-import Head from "next/head";
 import { ReactNode } from "react";
 import { Metadata } from "next";
 
@@ -15,20 +14,31 @@ interface RootLayoutProps {
 
 export const metadata: Metadata = {
   title: {
-    default: 'Articles and Blog for Programming science and ai',
-    template: '%s | Articles and Blog for Programming science and ai',
+    default: 'ElevenAi - Articles and Blog for Programming science and ai',
+    template: '%s | ElevenAi',
   },
   description: 'Articles and Blog for Programming science ai and more like this',
   openGraph: {
-    title: 'Articles and Blog for Programming science and ai',
+    title: 'ElevenAi - Articles and Blog for Programming science and ai',
     description: 'Articles and Blog for Programming science ai and more like this',
-    url: './',
-    siteName: 'elevenai',
+    url: 'https://elevenai.co',
+    siteName: 'ElevenAi',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/favicon.ico',
+        width: 32,
+        height: 32,
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/favicon.ico'],
   },
   alternates: {
-    canonical: './',
+    canonical: 'https://elevenai.co',
   },
   robots: {
     index: true,
@@ -41,24 +51,16 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <Head>
-        <title>Elevenai</title>
-        <meta name="description" content="learn code, programming and science" />
-        <meta name="keywords" content="elevenai, coding, programming, ai" />
-        <meta property="og:title" content="Elevenai" />
-        <meta property="og:description" content="learn code, programming and science" />
-        <meta property="og:url" content="https://elevenai.co" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://elevenai.co" />
-        {/* إضافة المزيد من الميتا بيانات هنا إذا لزم الأمر */}
-      </Head>
       <body className={inter.className}>
-        {/* إضافة Google Analytics */}
+        {/* Google Analytics */}
         <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=G-JYVGDQZH4V`}
