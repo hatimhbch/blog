@@ -1,4 +1,3 @@
-"use client";
 import React, { useEffect } from 'react';
 import Image from 'next/image';
 import hljs from 'highlight.js';
@@ -20,18 +19,15 @@ interface CodeBlockProps {
 }
 
 const CodeBlock: React.FC<CodeBlockProps> = ({ language, code }) => {
-  useEffect(() => {
-    hljs.highlightAll();
-  }, []);
+  const highlightedCode = hljs.highlight(code, { language }).value;
 
   return (
     <pre>
-      <code className={`language-${language}`}>
-        {code}
-      </code>
+      <code dangerouslySetInnerHTML={{ __html: highlightedCode }} />
     </pre>
   );
 };
+
 
 const LearningProgramming = () => {
   return (
