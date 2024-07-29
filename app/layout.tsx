@@ -54,7 +54,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <meta property="og:description" content="learn code, programming and science" />
         <meta property="og:url" content="https://elevenai.co" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://www.example.com/my-page" />
+        <link rel="canonical" href="https://eleven.co" />
         {/* إضافة المزيد من الميتا بيانات هنا إذا لزم الأمر */}
       </Head>
       <body className={inter.className}>
