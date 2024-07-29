@@ -5,11 +5,42 @@ import "./globals.css";
 import Script from "next/script";
 import Head from "next/head";
 import { ReactNode } from "react";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
 interface RootLayoutProps {
   children: ReactNode;
+}
+
+export const metadata: Metadata = {
+  title: {
+    default: 'Articles and Blog for Programming science and ai',
+    template: '%s | Articles and Blog for Programming science and ai',
+  },
+  description: 'Articles and Blog for Programming science ai and more like this',
+  openGraph: {
+    title: 'Articles and Blog for Programming science and ai',
+    description: 'Articles and Blog for Programming science ai and more like this',
+    url: './',
+    siteName: 'elevenai',
+    locale: 'en_US',
+    type: 'website',
+  },
+  alternates: {
+    canonical: './',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
