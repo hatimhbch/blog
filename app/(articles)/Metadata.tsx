@@ -15,6 +15,7 @@ export default function Metadata({ seoTitle, seoDescription }: Props) {
       <meta property="og:image" content="/favicon.ico" />
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:image" content="/favicon.ico" />
+      <link rel="canonical" href="https://eleven.co" />
     </Head>
   );
 }
