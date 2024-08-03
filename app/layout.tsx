@@ -5,6 +5,7 @@ import "./globals.css";
 import Script from "next/script";
 import { ReactNode } from "react";
 import { Metadata } from "next";
+import { ClerkProvider } from '@clerk/nextjs'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -58,7 +59,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <ClerkProvider>
+      <html lang="en">
       <body className={inter.className}>
         {/* Google Analytics */}
         <Script
@@ -79,5 +81,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <Footer />
       </body>
     </html>
+    </ClerkProvider>
   );
 }

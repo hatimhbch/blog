@@ -15,17 +15,13 @@ import Head from 'next/head';
 import Metadata from '../Metadata';
 
 interface CodeBlockProps {language: string;code: string;}
+
 const CodeBlock: React.FC<CodeBlockProps> = ({ language, code }) => {
-  useEffect(() => {
-    hljs.highlightAll();
-  }, []);
+  const highlightedCode = hljs.highlight(code, { language }).value;
 
-
-return (
+  return (
     <pre>
-      <code className={`language-${language}`}>
-        {code}
-      </code>
+      <code dangerouslySetInnerHTML={{ __html: highlightedCode }} />
     </pre>
   );
 };

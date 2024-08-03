@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400..900;1,300..900;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+.nav{
+    display: flex;
+}
 .navbar{
     display: flex;
     width: 100%;
@@ -85,35 +88,31 @@ font-family: 'Rubik', sans-serif;
 /*-----------------------------------------iconsbar------------------------------------------*/
 .iconsbar{
     display: flex;
-    height: auto;
+    height: 40px;
+    width: 80px;
 }
 .iconsbar .icosign{
     display: flex;
-    background: #fff;
-    border-radius: 50px;
-    margin: 0 0 0 20px;
-    padding: 3px 20px;
-    border: 1px solid #55337c;
-}
-.iconsbar .icosign p{
-    line-height: 30px;
-    text-align: center;
-    font-size: 13px;
-    color: #55337c;
-    font-family: 'Inter', sans-serif;
-}
-.iconsbar .icoLog{
-    display: flex;
     background: #55337c;
     border-radius: 50px;
-    margin: 0 0 0 18px;
-    padding: 3px 20px;
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
     border: 1px solid #55337c;
 }
-.iconsbar .icoLog p{
-    line-height: 30px;
+.icosign p{
     text-align: center;
     font-size: 13px;
     color: #fff;
     font-family: 'Inter', sans-serif;
+}
+.iconsbar .navclerk{
+    height: 40px;
+    position: absolute;
+    background: #000;
+    width: 80px;
+    border-radius: 50px;
+    z-index: 2;
+    opacity: 1;
 }

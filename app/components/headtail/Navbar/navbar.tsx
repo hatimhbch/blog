@@ -1,3 +1,7 @@
+"use client"
+
+import { SignedIn, UserButton } from '@clerk/clerk-react'
+import { SignedOut, SignInButton } from '@clerk/nextjs'
 import React from 'react'
 import Image from 'next/image'
 import './navbar.css'
@@ -7,7 +11,8 @@ import Link from 'next/link'
 
 function navbar() {
   return (
-    <div className="navbar">
+    <div className='nav'>
+          <div className="navbar">
             <Link href='./' aria-label="elevenai"><Image className="logo" src={logo} alt='home elevenai' /></Link>
             <ul>
               <li><Link href="./">Articles</Link></li>
@@ -20,10 +25,21 @@ function navbar() {
                 <p>Ctrl+K</p>
             </div>
             <div className="iconsbar">
-                <button className="icosign"><p>Sign up</p></button>
-                <button className="icoLog"><p>Login</p></button>
+               <div className="navclerk">
+                 <SignedOut>
+                   <SignInButton mode='modal'></SignInButton>
+                 </SignedOut>
+                 <SignedIn>
+                   <UserButton><Link href='/about'></Link></UserButton>
+                 </SignedIn>
+               </div>
+                <button className="icosign"><p>Sign in</p></button>
             </div>
           </div>
+
+
+
+      </div>
   )
 }
 
