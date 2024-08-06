@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  outline: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+pre {
+  background: #fdfcfb !important;
+  padding: 17px 20px !important;
+  border-radius: 5px !important;
+  border: 1px solid #fffaf4 !important;
+}
+code {
+  background: #fdfcfb !important;
+  border: none !important;
+  font-size: 16px !important;
+}
